@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "name": "Elden Ring",
+    "description": "Dark fantasy action RPG by FromSoftware. Explore the Lands Between and become the Elden Lord.",
+    "price": 59.99,
+    "rating": 4.9,
+    "genres": ["Action-RPG", "Soulslike", "Open World"],
+    "releaseDate": "2022-02-25",
+    "status": "Active"
+  },
+  {
+    "id": 2,
+    "name": "Sekiro: Shadows Die Twice",
+    "description": "Action-adventure game focusing on stealth, exploration, and intense sword combat.",
+    "price": 39.99,
+    "rating": 4.8,
+    "genres": ["Action", "Soulslike", "Stealth"],
+    "releaseDate": "2019-03-22",
+    "status": "Active"
+  },
+  {
+    "id": 3,
+    "name": "Bloodborne",
+    "description": "Face your fears as you search for answers in the ancient city of Yharnam.",
+    "price": 19.99,
+    "rating": 4.8,
+    "genres": ["Action-RPG", "Soulslike", "Horror"],
+    "releaseDate": "2015-03-24",
+    "status": "Archived"
+  },
+  {
+    "id": 4,
+    "name": "Dark Souls III",
+    "description": "The final chapter of the legendary Dark Souls series.",
+    "price": 44.99,
+    "rating": 4.7,
+    "genres": ["Action-RPG", "Soulslike", "Fantasy"],
+    "releaseDate": "2016-04-12",
+    "status": "Active"
+  },
+  {
+    "id": 5,
+    "name": "God of War Ragnarök",
+    "description": "Kratos and Atreus must journey to each of the Nine Realms in search of answers.",
+    "price": 69.99,
+    "rating": 4.9,
+    "genres": ["Action", "Adventure", "Fantasy"],
+    "releaseDate": "2022-11-09",
+    "status": "Active"
+  },
+  {
+    "id": 6,
+    "name": "Marvel's Spider-Man 2",
+    "description": "Peter Parker and Miles Morales return for an exciting new adventure in NYC.",
+    "price": 69.99,
+    "rating": 4.6,
+    "genres": ["Action", "Adventure", "Open World"],
+    "releaseDate": "2023-10-20",
+    "status": "Active"
+  },
+  {
+    "id": 7,
+    "name": "The Last of Us Part II",
+    "description": "A complex and emotional journey of revenge and survival.",
+    "price": 39.99,
+    "rating": 4.5,
+    "genres": ["Action", "Survival", "Drama"],
+    "releaseDate": "2020-06-19",
+    "status": "Active"
+  },
+  {
+    "id": 8,
+    "name": "Horizon Forbidden West",
+    "description": "Explore distant lands and fight awe-inspiring machines in a far-future world.",
+    "price": 49.99,
+    "rating": 4.4,
+    "genres": ["Action", "RPG", "Open World"],
+    "releaseDate": "2022-02-18",
+    "status": "Active"
+  },
+  {
+    "id": 9,
+    "name": "Ghost of Tsushima",
+    "description": "Unconventional warfare for the freedom of Tsushima.",
+    "price": 49.99,
+    "rating": 4.8,
+    "genres": ["Action", "Adventure", "Open World"],
+    "releaseDate": "2020-07-17",
+    "status": "Active"
+  },
+  {
+    "id": 10,
+    "name": "Apex Legends",
+    "description": "Fast-paced Hero Shooter where legendary competitors battle for glory.",
+    "price": 0.00,
+    "rating": 4.2,
+    "genres": ["Battle Royale", "FPS", "Online"],
+    "releaseDate": "2019-02-04",
+    "status": "Active"
+  },
+  {
+    "id": 11,
+    "name": "Overwatch 2",
+    "description": "A team-based action game set in the optimistic future.",
+    "price": 0.00,
+    "rating": 3.8,
+    "genres": ["FPS", "Online", "Team-based"],
+    "releaseDate": "2022-10-04",
+    "status": "Active"
+  },
+  {
+    "id": 12,
+    "name": "The Witcher 3: Wild Hunt",
+    "description": "Become a professional monster slayer and find the child of prophecy.",
+    "price": 29.99,
+    "rating": 4.9,
+    "genres": ["RPG", "Fantasy", "Open World"],
+    "releaseDate": "2015-05-19",
+    "status": "Active"
+  },
+  {
+    "id": 13,
+    "name": "Cyberpunk 2077",
+    "description": "An open-world, action-adventure story set in Night City.",
+    "price": 49.99,
+    "rating": 4.3,
+    "genres": ["RPG", "FPS", "Sci-Fi"],
+    "releaseDate": "2020-12-10",
+    "status": "Active"
+  },
+  {
+    "id": 14,
+    "name": "Valorant",
+    "description": "A character-based 5v5 tactical shooter set on the global stage.",
+    "price": 0.00,
+    "rating": 4.1,
+    "genres": ["FPS", "Online", "Tactical"],
+    "releaseDate": "2020-06-02",
+    "status": "Active"
+  },
+  {
+    "id": 15,
+    "name": "League of Legends",
+    "description": "A team-based strategy game where two teams of five champions face off.",
+    "price": 0.00,
+    "rating": 4.0,
+    "genres": ["MOBA", "Online", "Strategy"],
+    "releaseDate": "2009-10-27",
+    "status": "Active"
+  },
+  {
+    "id": 16,
+    "name": "Demon's Souls",
+    "description": "The remake of the PlayStation classic that started it all.",
+    "price": 69.99,
+    "rating": 4.7,
+    "genres": ["Action-RPG", "Soulslike", "Fantasy"],
+    "releaseDate": "2020-11-12",
+    "status": "Active"
+  },
+  {
+    "id": 17,
+    "name": "Ratchet & Clank: Rift Apart",
+    "description": "Blast your way through an interdimensional adventure.",
+    "price": 59.99,
+    "rating": 4.6,
+    "genres": ["Platformer", "Action", "Adventure"],
+    "releaseDate": "2021-06-11",
+    "status": "Active"
+  },
+  {
+    "id": 18,
+    "name": "Destiny 2",
+    "description": "Dive into the world of Destiny 2 to explore the mysteries of the solar system.",
+    "price": 0.00,
+    "rating": 4.0,
+    "genres": ["FPS", "MMO", "Sci-Fi"],
+    "releaseDate": "2017-09-06",
+    "status": "Active"
+  },
+  {
+    "id": 19,
+    "name": "Uncharted: Legacy of Thieves",
+    "description": "Experience the cinematic storytelling and largest blockbuster action set pieces.",
+    "price": 49.99,
+    "rating": 4.7,
+    "genres": ["Action", "Adventure", "Cinematic"],
+    "releaseDate": "2022-01-28",
+    "status": "Archived"
+  },
+  {
+    "id": 20,
+    "name": "Genshin Impact",
+    "description": "Embark on a journey across Teyvat to find your lost sibling.",
+    "price": 0.00,
+    "rating": 4.4,
+    "genres": ["RPG", "Gacha", "Open World"],
+    "releaseDate": "2020-09-28",
+    "status": "Active"
+  },
+  {
+    "id": 21,
+    "name": "Final Fantasy VII Rebirth",
+    "description": "Cloud and his companions escape the city of Midgar in search of Sephiroth.",
+    "price": 69.99,
+    "rating": 4.8,
+    "genres": ["RPG", "Fantasy", "Action"],
+    "releaseDate": "2024-02-29",
+    "status": "Active"
+  },
+  {
+    "id": 22,
+    "name": "Dota 2",
+    "description": "Every day, millions of players worldwide enter battle as one of over a hundred heroes.",
+    "price": 0.00,
+    "rating": 4.2,
+    "genres": ["MOBA", "Online", "Strategy"],
+    "releaseDate": "2013-07-09",
+    "status": "Active"
+  },
+  {
+    "id": 23,
+    "name": "Hades",
+    "description": "Defy the god of the dead as you hack and slash out of the Underworld.",
+    "price": 24.99,
+    "rating": 4.9,
+    "genres": ["Roguelike", "Action", "Indie"],
+    "releaseDate": "2020-09-17",
+    "status": "Active"
+  },
+  {
+    "id": 24,
+    "name": "New Game Project",
+    "description": "An unannounced title currently in development phase.",
+    "price": 0.00,
+    "rating": 0.0,
+    "genres": ["Unknown"],
+    "releaseDate": "2025-12-31",
+    "status": "Draft"
+  },
+  {
+    "id": 25,
+    "name": "Armored Core VI",
+    "description": "A new action game based on the concept of the Armored Core series.",
+    "price": 59.99,
+    "rating": 4.6,
+    "genres": ["Mecha", "Action", "Sci-Fi"],
+    "releaseDate": "2023-08-25",
+    "status": "Active"
+  }
+]
