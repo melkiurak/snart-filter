@@ -5,12 +5,12 @@ import { DataManager } from './components/DataManager/DataManager'
 import Filters from './components/Filters/Filters'
 
 function App() {
-    const [date, setDate] = useState();
+  const [selectedYears, setSelectedYears] = useState([]);
 
   return (
     <div className='wrapper'>
-      <Filters date={date}/>
-      <DataManager setDate={setDate}/>
+      <Filters selectedYears={selectedYears} setSelectedYears={setSelectedYears}/>
+      <DataManager selectedYears={selectedYears}/>
     </div>
   )
 }

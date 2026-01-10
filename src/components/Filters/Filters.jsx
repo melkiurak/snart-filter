@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
-export default function Filters ({date}) {
-    const [selectedYears, setSelectedYears] = useState([]);
+import React from 'react';
+export default function Filters ({selectedYears, setSelectedYears}) {
     //const actives = ["Active", "Archived", "Draft"]
     const currentYear = new Date().getFullYear()
     const years = [];
@@ -16,6 +15,7 @@ export default function Filters ({date}) {
         else {
             setSelectedYears(selectedYears.filter(y => y !== value))        
         }
+        console.log("Ты выбрал такой вот год:",selectedYears)
     }
     return (
         <div>
