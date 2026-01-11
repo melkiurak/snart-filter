@@ -10,7 +10,7 @@ function App() {
   return (
     <div className='wrapper'>
       <Filters selectedYears={selectedYears} setSelectedYears={setSelectedYears} selectedActives={selectedActives} setSelectedActives={setSelectedActives}/>
-      <DataManager selectedYears={selectedYears}/>
+      <DataManager selectedYears={selectedYears} selectedActives={selectedActives}/>
     </div>
   )
 }
