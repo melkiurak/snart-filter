@@ -18,7 +18,7 @@ export default function Filters ({selectedYears, setSelectedYears, selectedActiv
     };
     const handelChangeActive = (active, e) => {
         const value = e.target.value;
-        if(e.target.value) {
+        if(e.target.checked) {
             setSelectedActives(prev => [...prev, value]);
         } else {
             setSelectedActives(selectedActives.filter(a => a !== value));

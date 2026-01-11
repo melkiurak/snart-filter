@@ -3,9 +3,15 @@ import initialGames from '../../data/initialGames.json'
 export function  DataManager({selectedYears, selectedActives}) {
     const [games, setGames] = useState(initialGames);
     let result = [];
-    if(selectedYears){
+    if(selectedYears.length >= 1){
         result = games.filter(g => selectedYears.includes(parseInt(g.releaseDate.slice(0,4))));
-    };
+    }
+    else if(selectedActives.length >= 1){
+        result = games.filter(g => selectedActives.includes(g.status));
+    }
+    else{
+        result = games;
+    }
     return (
         <div className='data-list'>
             {result.map(game => (
