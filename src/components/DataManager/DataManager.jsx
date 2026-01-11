@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import initialGames from '../../data/initialGames.json'
-export function  DataManager({selectedYears}) {
+export function  DataManager({selectedYears, selectedActives}) {
     const [games, setGames] = useState(initialGames);
     const filterGame = games.filter(g => selectedYears.length === 0 ||  selectedYears.includes(parseInt(g.releaseDate.slice(0,4))))
     return (
