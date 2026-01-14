@@ -9,7 +9,7 @@ export default function Filters ({setGames, games}) {
     for (let i = 2000; i < currentYear; i++){
         years.push(i)
     };
-    const filterData = () => {        
+    /*const filterData = () => {        
         let result = games;
         if(selectedYears.length >= 1){
            result =  result.filter(g => selectedYears.includes(parseInt(g.releaseDate.slice(0,4))));
@@ -18,16 +18,13 @@ export default function Filters ({setGames, games}) {
             result = result.filter(g => selectedActives.includes(g.status));
         };
         return result;
-    }
-    setGames(filterData())
+    }*/
     const handelChangeYear = (year, e) => {
         const value = parseInt(e.target.value);
-        if(e.target.checked){
-            setSelectedYears(prev => [...prev, value]);
-        }
-        else {
-            setSelectedYears(selectedYears.filter(y => y !== value));  
-        }
+        const newSelectedYear = e.target.checked  ?  [...selectedYears, value] : selectedYears.filter(y => y !== value);
+        setSelectedYears(newSelectedYear);
+        const result = games.filter(g => newSelectedYear.includes(parseInt(g.releaseDate.slice(0,4))));
+        setGames(result);
     };
     const handelChangeActive = (active, e) => {
         const value = e.target.value;
